@@ -1,0 +1,404 @@
+
+html {
+  padding: 0;
+  margin: 0;
+  background: black;
+  position: relative;
+  height: 100%;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+    background: #FBF3DE;
+    height: 4735px;
+    color: inherit;
+    font-family: 'PT Mono', monospace;
+    display: block;
+    color: #2C2B2B;
+    position: relative;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: url('images/макет.jpg');
+    height: 100%;
+    display: block;
+    opacity: 0.2;
+  }
+  .firstpage h1 {
+    position: absolute;
+    width: 700px;
+    height: 128px;
+    left: 69px;
+    top: 325px;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.03em;
+  }
+  .firstpage p {
+   position: absolute;
+   width: 328px;
+   height: 50px;
+   left: 436px;
+   top: 135px;
+   font-size: 36px;
+   line-height: 50px;
+   letter-spacing: 0.05em;
+
+ }
+  .machine img {
+   position: absolute;
+   width: 751.02px;
+   height: 630px;
+   margin-left: 600px;
+   margin-top: 30px;
+   mix-blend-mode: multiply;
+   opacity: 0.8;
+   transform: rotate(0.5deg);
+
+}
+  .red {
+    position: absolute;
+   width: 561px;
+   height: 0px;
+   left: 318px;
+   top: 197px;
+   border: 3px solid #CB352D;
+}
+  .round img {
+   position: absolute;
+   left: 0px;
+   top: 590px;
+}
+  .FACT h4 {
+   position: absolute;
+   width: 108px;
+   height: 40px;
+   left: 49px;
+   top: 1022px;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 40px;
+   color: rgba(44, 43, 43, 0.69);
+}
+ .one h2 {
+   position: absolute;
+   width: 173px;
+   height: 50px;
+   left: 17px;
+   top: 871px;
+   font-size: 260px;
+   line-height: 50px;
+   letter-spacing: 0.05em;
+   color: #534839;
+}
+ .secondpage p {
+   position: absolute;
+   width: 420px;
+   height: 75px;
+   left: 356px;
+   top: 767px;
+   font-size: 24px;
+   line-height: 27px;
+}
+.secondpage p + p {
+   position: absolute;
+   width: 437px;
+   height: 48px;
+   left: 356px;
+   top: 960px;
+   font-size: 24px;
+   line-height: 27px;
+}
+.secondpage p + p + p {
+   position: absolute;
+   width: 534px;
+   height: 48px;
+   left: 356px;
+   top: 1126px;
+   font-size: 24px;
+   line-height: 27px;
+}
+.secondpage p + p + p + p {
+  position: absolute;
+  width: 630px;
+  height: 75px;
+  left: 356px;
+  top: 1265px;
+  font-size: 24px;
+  line-height: 27px;
+}
+.stroke1 img {
+  position: absolute;
+  left: 354px;
+  top: 880px;
+}
+.stroke2 img {
+  position: absolute;
+  left: 354px;
+  top: 1046px;
+}
+.stroke3 img {
+  position: absolute;
+  left: 354px;
+  top: 1212px;
+}
+.stroke4 img {
+  position: absolute;
+  left: 354px;
+  top: 1378px;
+}
+.round2 img {
+  position: absolute;
+  left: 880px;
+  top: 1276px;
+
+}
+.machine2 {
+  position: absolute;
+  left: -1px;
+  top: 1349px;
+}
+.thirdpage p {
+  position: absolute;
+ width: 173px;
+ height: 18px;
+ left: 86px;
+ top: 1533px;
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 18px;
+}
+.thirdpage p + p {
+  position: absolute;
+  width: 144px;
+  height: 18px;
+  left: 86px;
+  top: 1625px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.thirdpage p + p + p {
+  position: absolute;
+  width: 68px;
+  height: 18px;
+  left: 86px;
+  top: 1717px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.thirdpage p + p + p + p {
+  position: absolute;
+  width: 173px;
+  height: 18px;
+  left: 1020px;
+  top: 1768px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.thirdpage p + p + p + p + p {
+  position: absolute;
+  width: 68px;
+  height: 18px;
+  left: 1125px;
+  top: 1860px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.thirdpage p + p + p + p + p + p {
+  position: absolute;
+  width: 58px;
+  height: 18px;
+  left: 1135px;
+  top: 1952px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.two h2 {
+  position: absolute;
+  width: 173px;
+  height: 50px;
+  left: 1086px;
+  top: 1527px;
+  font-size: 260px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  color: #534839;
+}
+.MAKET h4 {
+  position: absolute;
+  width: 108px;
+  height: 40px;
+  left: 1106px;
+  top: 1678px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: rgba(44, 43, 43, 0.69);
+}
+.round3 img {
+  position: absolute;
+  width: 343px;
+  height: 600px;
+  left: 0px;
+  top: 2007px;
+}
+.stroke5 img {
+  position: absolute;
+  left: 353px;
+  top: 2263px;
+}
+.stroke6 img {
+  position: absolute;
+  left: 353px;
+  top: 2387px;
+}
+.stroke7 img {
+  position: absolute;
+  left: 353px;
+  top: 2511px;
+}
+.three h2 {
+  position: absolute;
+  width: 173px;
+  height: 50px;
+  left: 17px;
+  top: 2261px;
+  font-size: 260px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  color: #534839;
+}
+.Comp h4 {
+  position: absolute;
+  width: 204px;
+  height: 38px;
+  left: 44px;
+  top: 2428px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: rgba(44, 43, 43, 0.69);
+}
+.fourthpage p {
+  position: absolute;
+  width: 720px;
+  height: 75px;
+  left: 356px;
+  top: 2150px;
+  font-size: 24px;
+  line-height: 27px;
+}
+.fourthpage p + p {
+  position: absolute;
+  width: 750px;
+  height: 48px;
+  left: 357px;
+  top: 2301px;
+  font-size: 24px;
+  line-height: 27px;
+
+}
+.fourthpage p + p + p {
+  position: absolute;
+  width: 678px;
+  height: 48px;
+  left: 356px;
+  top: 2425px;
+  font-size: 24px;
+  line-height: 27px;
+}
+.clava img {
+  position: absolute;
+  left: 50px;
+  top: 2857px;
+}
+.round4 img {
+  position: absolute;
+  width: 347px;
+  height: 600px;
+  left: 933px;
+  top: 2702px;
+}
+.four h2 {
+  position: absolute;
+  width: 169px;
+  height: 49px;
+  left: 1099px;
+  top: 2972px;
+  font-size: 260px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  color: #534839;
+}
+.ptMono h4 {
+  position: absolute;
+  width: 143px;
+  height: 38px;
+  left: 1112px;
+  top: 3137px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: rgba(44, 43, 43, 0.69);
+}
+.zavod img {
+  position: absolute;
+  left: 226px;
+  top: 2476px;
+}
+.round5 img {
+  position: absolute;
+  width: 371px;
+  height: 600px;
+  left: 0px;
+  top: 3347px;
+}
+.convert img {
+  position: absolute;
+  width: 1280px;
+  height: 1235px;
+  left: 0px;
+  top: 3500px;
+}
+.fifth p {
+  position: absolute;
+  width: 634px;
+  height: 285px;
+  left: 357px;
+  top: 3874px;
+  font-size: 24px;
+  line-height: 50px;
+}
+.lilyasamsonova p {
+  position: absolute;
+  width: 216px;
+  height: 27px;
+  left: 532px;
+  top: 4676px;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFDF6;
+}
+.instagram img {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 781px;
+  top: 4673px;
+}
+.telegram img {
+  position: absolute;
+  width: 37px;
+  height: 34px;
+  left: 822px;
+  top: 4673px;
+}
