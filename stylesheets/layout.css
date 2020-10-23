@@ -10,6 +10,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 83px;
+width: 1280px;
 padding: 0 70px;
 background: #CB352D;
 position: fixed;
